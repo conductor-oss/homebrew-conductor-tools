@@ -1,25 +1,25 @@
 class Orkes < Formula
   desc "CLI for Conductor - The leading open-source orchestration platform"
   homepage "https://github.com/conductor-oss/conductor-cli"
-  version "0.0.20"
+  version "0.0.21"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.20/orkes_darwin_arm64"
-      sha256 "455173bd17b99377a8db105a964098a12b4f8bb8ef4a7e435e7734c7d537897f"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.21/orkes_darwin_arm64"
+      sha256 "1ad72ed9238ea37284f3bb6907145999c02f7bddc1ccc1476b0292686ea13c4e"
     else
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.20/orkes_darwin_amd64"
-      sha256 "318927b343a2c5ca327240de1ca91a8b83dfe5c86c47764ba017c809193299f2"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.21/orkes_darwin_amd64"
+      sha256 "7d3996bce4c55ecdece3f4d02e2c083f14a87ab5232cb2f6945d6ab276f3cbf1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.20/orkes_linux_arm64"
-      sha256 "0af390bb1dd2d47bdd9b7f5769ae005b08364456dc5014e4f90bd8ade29544ce"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.21/orkes_linux_arm64"
+      sha256 "5a2704b17ea14e371c1a0650ff9241f916459f79109e0e426832c8197d53f169"
     else
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.20/orkes_linux_amd64"
-      sha256 "a9444660923a645947f904c3db7a43458395c3c5581733c7ba8b99b172d640f1"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.21/orkes_linux_amd64"
+      sha256 "f4fa9b563477cb687ac35265bc8f80fe62bf1d0cab401b5c68b46e6923d5e64b"
     end
   end
 
